@@ -84,7 +84,7 @@ docker exec -it hish bash
 Open the Bash terminal inside the container and run the initial script to start the entire pipeline:
 
 ```bash
-python3 load.py
+python3 load.py top_rated_movies\(tmdb\).csv
 ```
 
 ---
