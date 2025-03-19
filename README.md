@@ -123,6 +123,14 @@ cat eda-in-3.txt
 cat k.txt
 ```
 
+### Step 9: Run the script using Git Bash or WSL
+
+To run using Git Bash, open it then navigate to the directory containing the final.sh script and run:
+
+```bash
+bash ./final.sh
+```
+
 ---
 
 ## Cleaning Up
