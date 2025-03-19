@@ -1,0 +1,3 @@
+rating_category,count
+Medium,7340
+High,1218
