@@ -53,7 +53,13 @@ Once inside the container, navigate to the project directory:
 cd /home/doc-bd-a1
 ```
 
-### Step 4: Copy Python Files from Host to Container
+### Step 4: Exit the container
+
+```bash
+exit
+```
+
+### Step 5: Copy Python Files from Host to Container
 
 To copy the Python files to the container, use the following commands:
 
@@ -66,7 +72,14 @@ docker cp model.py hish:/home/doc-bd-a1
 docker cp '.\top_rated_movies(tmdb).csv' hish:/home/doc-bd-a1
 ```
 
-### Step 5: Open Bash and Run the Script
+### Step 6: Run the container again
+
+```bash
+docker start hish
+docker exec -it hish bash
+```
+
+### Step 7: Open Bash and Run the Script
 
 Open the Bash terminal inside the container and run the initial script to start the entire pipeline:
 
@@ -93,7 +106,7 @@ The following output files will be generated during the pipeline execution:
 - **Clustering:**
   - `k.txt`: Number of records per cluster.
 
-### Step 6: Verifying Output Files
+### Step 8: Verifying Output Files
 
 To check the output files, list the contents of the working directory:
 
