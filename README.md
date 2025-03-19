@@ -63,7 +63,7 @@ docker cp dpre.py hish:/home/doc-bd-a1
 docker cp eda.py hish:/home/doc-bd-a1
 docker cp vis.py hish:/home/doc-bd-a1
 docker cp model.py hish:/home/doc-bd-a1
-docker cp top_rated_movies\(tmdb\).csv hish:/home/doc-bd-a1
+docker cp '.\top_rated_movies(tmdb).csv' hish:/home/doc-bd-a1
 ```
 
 ### Step 5: Open Bash and Run the Script
